@@ -17,11 +17,13 @@ namespace Aula3 {
             
             var aux2 = nome;
             Console.WriteLine("O nome do individuo é: " + aux2);
-            int num1 = 10;
-            int num2 = 2;
+            int num1 = 10, num2 = 2;
 
             var soma = num1 + num2;
             Console.WriteLine("A soma de " + num1 + " e " + num2 + " é igual a " + soma);
+            var multiplicacao = num1 * num2;
+            Console.WriteLine("A multiplicação de " + num1 + " e " + num2 + " é igual a " + multiplicacao);
+            
         }
         
     }
